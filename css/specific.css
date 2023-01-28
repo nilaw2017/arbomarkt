@@ -44,14 +44,14 @@ ul, li {
   width: 10px;
 }
 .owl-carousel .owl-prev span, .owl-carousel .owl-next span {
-  size: 10px;
+  font-size: 30px;
   width: 10px;
   height: 10px;
 }
 .owl-carousel .owl-dots {
   margin: 0 auto;
   position: relative;
-  top: -17px;
+  top: -30px;
   display: flex;
   width: 80%;
   justify-content: space-evenly;
@@ -64,6 +64,17 @@ ul, li {
 }
 .owl-carousel .owl-dots .active {
   background-color: var(--secondary1);
+}
+
+.specialists-right-card {
+  border-radius: 100px;
+  border: 5px solid var(--primary);
+}
+.specialists-right-card .right-sec-btn {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=specific.css.map */

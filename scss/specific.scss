@@ -45,7 +45,7 @@ ul, li {
         width: 10px;
         // border: 1px solid blue !important;
         span {
-            size: 10px;
+            font-size: 30px;
             width: 10px;
             height: 10px;
         }
@@ -53,7 +53,7 @@ ul, li {
     .owl-dots {
         margin:0 auto;
         position: relative;
-        top: -17px;
+        top: -30px;
         display: flex;
         width: 80%;
         justify-content:space-evenly;
@@ -66,5 +66,15 @@ ul, li {
         .active {
             background-color: var(--secondary1);
         }
+    }
+}
+.specialists-right-card {
+    border-radius: 100px;
+    border: 5px solid var(--primary);
+    .right-sec-btn{
+        width: 50px;
+        height: 50px;
+        font-size:25px;
+        text-align: center;
     }
 }

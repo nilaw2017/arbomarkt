@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Baloo 2", cursive;
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 :root {
@@ -16,6 +16,16 @@
 
 .p-color {
   color: var(--primary);
+}
+
+.s1-color {
+  color: var(--secondary1);
+}
+.s2-color {
+  color: var(--secondary2);
+}
+.s3-color {
+  color: var(--secondary3);
 }
 
 .d-flex {
@@ -35,8 +45,20 @@
   justify-content: space-between;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .align-center {
   align-content: center;
+}
+
+.col-2 {
+  flex-basis: 50%;
+}
+
+.col-3 {
+  flex-basis: 33.33%;
 }
 
 .m-1 {
@@ -89,12 +111,70 @@
   margin-right: 5%;
 }
 
+.p-1 {
+  padding: 1%;
+}
+.p-3 {
+  padding: 3%;
+}
+.p-5 {
+  padding: 5%;
+}
+
+.pt-1 {
+  padding-top: 1%;
+}
+.pt-3 {
+  padding-top: 3%;
+}
+.pt-5 {
+  padding-top: 5%;
+}
+
+.pb-1 {
+  padding-bottop: 1%;
+}
+.pb-3 {
+  padding-bottop: 3%;
+}
+.pb-5 {
+  padding-bottop: 5%;
+}
+
+.ps-1 {
+  padding-left: 1%;
+}
+.ps-3 {
+  padding-left: 3%;
+}
+.ps-5 {
+  padding-left: 5%;
+}
+
+.pe-1 {
+  padding-right: 1%;
+}
+.pe-3 {
+  padding-right: 3%;
+}
+.pe-5 {
+  padding-right: 5%;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .bold {
   font-weight: bold;
 }
 
 .bolder {
   font-weight: bolder;
+}
+
+.circle {
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */
