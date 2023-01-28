@@ -1,0 +1,34 @@
+.container {
+    width: 75%;
+    margin: 0 auto
+}
+ul, li {
+    list-style: none;
+}
+
+.nav {
+    display: flex;
+    width: 600px;
+    ul {
+        display: flex;
+        flex:auto;
+        justify-content: space-between;
+        li, h1 {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+    }
+}
+
+.header-title {
+    :nth-child(1){
+        color: var(--secondary1)
+    }
+    :nth-child(2) {
+        color: var(--secondary2);
+    }
+    :nth-child(3) {
+        color: var(--secondary3);
+    }
+}

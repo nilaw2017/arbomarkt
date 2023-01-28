@@ -1,0 +1,35 @@
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  width: 600px;
+}
+.nav ul {
+  display: flex;
+  flex: auto;
+  justify-content: space-between;
+}
+.nav ul li, .nav ul h1 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.header-title :nth-child(1) {
+  color: var(--secondary1);
+}
+.header-title :nth-child(2) {
+  color: var(--secondary2);
+}
+.header-title :nth-child(3) {
+  color: var(--secondary3);
+}
+
+/*# sourceMappingURL=specific.css.map */
