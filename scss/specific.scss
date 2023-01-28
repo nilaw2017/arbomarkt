@@ -32,3 +32,39 @@ ul, li {
         color: var(--secondary3);
     }
 }
+.specialists-left {
+    width: 25%;
+}
+.owl-carousel {
+    .owl-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+    .owl-prev, .owl-next {
+        // height: 10px;
+        width: 10px;
+        // border: 1px solid blue !important;
+        span {
+            size: 10px;
+            width: 10px;
+            height: 10px;
+        }
+    }
+    .owl-dots {
+        margin:0 auto;
+        position: relative;
+        top: -17px;
+        display: flex;
+        width: 80%;
+        justify-content:space-evenly;
+        .owl-dot{
+            width: 10px;
+            height: 10px;
+            border-radius: 50px;
+            background-color: var(--primary);
+        }
+        .active {
+            background-color: var(--secondary1);
+        }
+    }
+}

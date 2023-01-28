@@ -32,4 +32,38 @@ ul, li {
   color: var(--secondary3);
 }
 
+.specialists-left {
+  width: 25%;
+}
+
+.owl-carousel .owl-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.owl-carousel .owl-prev, .owl-carousel .owl-next {
+  width: 10px;
+}
+.owl-carousel .owl-prev span, .owl-carousel .owl-next span {
+  size: 10px;
+  width: 10px;
+  height: 10px;
+}
+.owl-carousel .owl-dots {
+  margin: 0 auto;
+  position: relative;
+  top: -17px;
+  display: flex;
+  width: 80%;
+  justify-content: space-evenly;
+}
+.owl-carousel .owl-dots .owl-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  background-color: var(--primary);
+}
+.owl-carousel .owl-dots .active {
+  background-color: var(--secondary1);
+}
+
 /*# sourceMappingURL=specific.css.map */

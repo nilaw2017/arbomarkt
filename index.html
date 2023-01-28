@@ -25,8 +25,22 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
-    <script src="https://use.fontawesome.com/c27bcc063f.js"></script>
+    <!-- <script src="https://use.fontawesome.com/c27bcc063f.js"></script> -->
     <title>arbomarkt</title>
   </head>
   <body>
@@ -134,10 +148,59 @@
       <!-- LIST OF SPECIALISTS -->
       <div>
         <!-- LEFT SECTION -->
-        <section>
-          <h4>Specialisten uitgelicht</h4>
-        </section>
+        <div class="owl-carousel specialists-left">
+          <section>
+            <h5>MAAK KENNY</h5>
+            <h4>Specialisten uitgelicht</h4>
+            <p>
+              Maak kennis met enkele gewaardeerde specialisten die zich hier
+              graag even aan je voorstellen.
+            </p>
+          </section>
+          <section>
+            <h5>MAAK KENNY</h5>
+            <h4>Specialisten uitgelicht</h4>
+            <p>
+              Maak kennis met enkele gewaardeerde specialisten die zich hier
+              graag even aan je voorstellen.
+            </p>
+          </section>
+          <section>
+            <h5>MAAK KENNY</h5>
+            <h4>Specialisten uitgelicht</h4>
+            <p>
+              Maak kennis met enkele gewaardeerde specialisten die zich hier
+              graag even aan je voorstellen.
+            </p>
+          </section>
+          <section>
+            <h5>MAAK KENNY</h5>
+            <h4>Specialisten uitgelicht</h4>
+            <p>
+              Maak kennis met enkele gewaardeerde specialisten die zich hier
+              graag even aan je voorstellen.
+            </p>
+          </section>
+        </div>
       </div>
     </section>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: false,
+          items: 1,
+          nav: true,
+          dots: true,
+          dotsEach: true,
+        });
+      });
+    </script>
   </body>
 </html>
